@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/app.js"></script>
+    <!-- ----Font-google--------- -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alata&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Frontend Mentor | Loopstudios landing page</title>
+  </head>
+  <body>
+    <!-- ----start-hero-page------ -->
+    <section class="hero__page">
+      <!-- ------start-header------------ -->
+      <header>
+        <nav>
+          <div class="header__heading">
+            <a href="#main"><img src="/images/logo.svg" alt="loopstudios" /></a>
+            <div class="icons">
+              <a href="#close" class="close">
+                <img src="/images/icon-close.svg" alt="close">
+              </a>
+              <a href="#hamburger" alt="menu" class="menu">
+                <img src="/images/icon-hamburger.svg" alt="menu">
+              </a>
+            </div>
+          </div>
+          <ul class="list">
+            <li class="list__items">
+              <a href="#About" class="list__links">About</a>
+            </li>
+            <li class="list__items">
+              <a href="#Careers" class="list__links">Careers</a>
+            </li>
+            <li class="list__items">
+              <a href="#Events" class="list__links">Events</a>
+            </li>
+            <li class="list__items">
+              <a href="#Products" class="list__links">Products</a>
+            </li>
+            <li class="list__items">
+              <a href="#Support" class="list__links">Support</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <!-- ------start-header------------ -->
+      <!-- ------start-hero-content---------- -->
+      <div class="hero__container">
+        <div class="content">
+          <h1 class="title"> Immersive experiences that deliver</h1>
+        </div>
+      </div>
+      <!-- ------end-hero-content---------- -->
+      
+    </section>
+    <!-- ----end-hero-page------ -->
+    <!-- ------start-interactive-page--------- -->
+    <section class="interactive">
+      <div class="interactive__container">
+        <div class="img__container">
+          <picture>
+            <source srcset="/images/mobile/image-interactive.jpg" media="(max-width:768px)">
+            <img src="/images/desktop/image-interactive.jpg" alt="user">
+          </picture>
+        </div>
+        <div class="img__content">
+          <h2>The leader in interactive VR</h2>
+          <p class="description">
+            Founded in
+            2011, Loopstudios has been producing world-class virtual reality projects
+            for some of the best companies around the globe. Our award-winning creations
+            have transformed businesses through digital experiences that bind to their
+            brand.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ------end-interactive-page--------- -->
+    <!-- -------start-creations-page----------------- -->
+    <section class="creations">
+      <div class="creations__container">
+          <div class="heading">
+              <h2>Our creations</h2>
+              <button class="more" style="display: none;">See all</button>
+          </div>
+          <div class="card_product">
+            <div class="card">
+              <picture>
+                <source srcset="/images/mobile/image-deep-earth.jpg " media="(max-width:768px)">
+                <img src="/images/desktop/image-deep-earth.jpg" alt="">
+              </picture>
+              <p>Deep <br>earth</p>
+            </div>
+            <div class="card">
+              <picture>
+                <source srcset="/images/mobile/image-night-arcade.jpg" media="(max-width:768px)">
+                <img src="/images/desktop/image-night-arcade.jpg" alt="">
+              </picture>
+              <p>Night<br> arcade</p>
+            </div>
+            <div class="card">
+              <picture>
+                <source srcset="/images/mobile/image-soccer-team.jpg" media="(max-width:768px)">
+                <img src="/images/desktop/image-soccer-team.jpg" alt="">
+              </picture>
+              
+              <p>Soccer <br>team VR</p>
+            </div>
+            <div class="card">
+              <picture>
+                <source srcset="/images/mobile/image-grid.jpg" media="(max-width:768px)">
+                <img src="/images/desktop/image-grid.jpg" alt="">
+              </picture>
+              <p>The<br> grid</p>
+            </div>
+            <div class="card">
+               <picture>
+                <source srcset="/images/mobile/image-from-above.jpg" media="(max-width:768px)">
+                <img src="/images/desktop/image-from-above.jpg" alt="">
+              </picture>
+              <p> From up <br>above VR</p>
+            </div>
+            <div class="card">
+               <picture>
+                <source srcset="/images/mobile/image-pocket-borealis.jpg" media="(max-width:768px)">
+                <img src="/images/desktop/image-pocket-borealis.jpg" alt="">
+              </picture>
+              <p>Pocket <br>borealis</p>
+            </div>
+            <div class="card">
+               <picture>
+                <source srcset="/images/mobile/image-curiosity.jpg" media="(max-width:768px)">
+                <img src="/images/desktop/image-curiosity.jpg" alt="">
+              </picture>
+              <p>The <br>curiosity</p>
+            </div>
+            <div class="card">
+               <picture>
+                <source srcset="/images/mobile/image-fisheye.jpg" media="(max-width:768px)">
+                <img src="/images/desktop/image-fisheye.jpg" alt="">
+              </picture>
+              <p>Make it<br>
+                fisheye</p>
+            </div>
+          </div>
+          <button class="more">See all</button>
+
+      </div>
+    </section>
+    <!-- -------end-creations-page----------------- -->
+    <!-- -----start-footer--------- -->
+    <footer>
+      <div class="footer__container">
+        <div class="logo__with__menu">
+          <a href="#mainpage"><img src="/images/logo.svg" alt="loopstudios"></a>
+          <ul class="list">
+            <li class="list__items"><a href="#About" class="links__items">About</a></li>
+            <li class="list__items"><a href="#Careers" class="links__items">Careers</a></li>
+            <li class="list__items"><a href="#Events" class="links__items">Events</a></li>
+            <li class="list__items"><a href="#Products" class="links__items">Products</a></li>
+            <li class="list__items"><a href="#Support" class="links__items">Support</a></li>
+          </ul>
+        </div>
+        <div class="icons__with__copyright">
+          <div class="icons">
+            <a href="#facebook" class="facebook">
+              <img src="/images/icon-facebook.svg" alt="facebook">
+            </a>
+            <a href="#twitter" class="twitter">
+              <img src="/images/icon-twitter.svg" alt="twitter">
+            </a>
+            <a href="#pintrest" class="pintrest">
+              <img src="/images/icon-pinterest.svg" alt="pintrest">
+            </a>
+            <a href="#Instagram" class="Instagram">
+              <img src="/images/icon-instagram.svg" alt="Instagram">
+            </a>
+          </div>
+          <div class="copyright">&#169; 2021 Loopstudios. All rights reserved.</div>
+        </div>
+
+      </div>
+    </footer>
+    <!-- -----End-footer--------- -->
+
+    
+  </body>
+</html>
